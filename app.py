@@ -149,4 +149,8 @@ def mormish():
 @app.route("/lab2/example")
 def example():
     name = 'Юнус Салманов'
-    return render_template('example.html', name=name)
+    labnum = '2'
+    coursenum = '3 курс'
+    groupnum = 'ФБИ-13'
+
+    return render_template('example.html', name=name, labnum=labnum, coursenum=coursenum, groupnum=groupnum)
