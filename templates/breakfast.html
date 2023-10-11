@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block lab %}Лабораторнаяа работа 2{% endblock %}
+
+{% block main %}
+<h1>Готовые завтраки</h1>
+<div><b>Самые культовые</b></div>
+
+<div style="margin-left: 550px; font-size: 18px">
+<h1>Несквик</h1>
+<img style="height: 20%; width: 20%;" src="{{ url_for ('static', filename='nesqiuk.jpg') }}">
+<p style="height: 600px; width: 1200px;">Торговая марка растворимого шоколадного
+напитка, шоколада, мороженого и конфет. Принадлежит швейцарской компании Nestlé.</p>
+</div>
+
+<div style="margin-left: 550px; font-size: 18px; margin-top: -500px">
+    <h1>Космостарс</h1>
+    <img style="height: 20%; width: 20%;" src="{{ url_for ('static', filename='kosmo.jpg') }}">
+    <p style="height: 600px; width: 1200px;">Kosmostars — это медовые ракеты и звездочки
+    из цельных злаков, обогащенные витаминами и минералами.</p>
+    </div>
+
+<div style="margin-left: 550px; font-size: 18px; margin-top: -500px">
+    <h1>Хрутка</h1>
+    <img style="height: 20%; width: 20%;" src="{{ url_for ('static', filename='hrutka.jpg') }}">
+    <p style="height: 600px; width: 1200px;">Готовый завтрак ХРУТКА Шоколадные шарики ‒ вкусный
+        и полезный завтрак для всей семьи. Больше не придется тратить ценное утреннее время на
+        долгое приготовление завтрака и уговаривать домочадцев съесть еще ложечку, ведь тарелка
+        аппетитных воздушных шоколадных шариков, залитых молоком или йогуртом, будет съедена
+        на раз.</p>
+    </div>
+
+<div style="margin-left: 550px; font-size: 18px; margin-top: -500px">
+    <h1>Мильпопс</h1>
+    <img style="height: 20%; width: 20%;" src="{{ url_for ('static', filename='milpops.jpg') }}">
+    <p style="height: 600px; width: 1200px;">Хрустящий завтрак приготовлен из цельнозерновой
+    пшеничной и кукурузной муки, что делает его особенно полезным и питательным.</p>
+    </div>
+
+<div style="margin-left: 550px; font-size: 18px; margin-top: -500px">
+    <h1>Юникорн</h1>
+    <img style="height: 20%; width: 20%;" src="{{ url_for ('static', filename='unicorn.jpg') }}">
+    <p style="height: 600px; width: 1200px;">Готовый завтрак бренда Kellogg's Unicorn — это радужные колечки,
+    обладающие нежным фруктовым вкусом. Благодаря натуральному мультизерновому составу без
+    искусственных консервантов и красителей продукт очень полезен и помогает зарядить
+    организм энергией.</p>
+    </div>
+{% endblock %}
