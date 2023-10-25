@@ -33,9 +33,11 @@ def example():
 
     return render_template('example.html', name=name, labnum=labnum, coursenum=coursenum, groupnum=groupnum, fruits=fruits, books=books)
 
+
 @lab2.route('/lab2/')
 def lab():
     return render_template('lab2.html')
+
 
 @lab2.route('/lab2/breakfast')
 def breakfast():
